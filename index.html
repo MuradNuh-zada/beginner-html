@@ -3,7 +3,154 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="container">
+        <a href="#"
+          >Beginner <br />
+          HTML</a
+        >
+        <ul class="header-list">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Tutorials</a>
+          </li>
+          <li>
+            <a href="#">Example</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <button>Reach out</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section id="form-section">
+        <h1 class="form-header">We'd love your feedback!</h1>
+        <hr />
+        <article>
+          <form id="form-info" action="">
+            <div class="label-input">
+              <label for="f-name">Full Name</label>
+              <input
+                type="text"
+                placeholder="Enter your name"
+                name="f-name"
+                id="f-name"
+                required
+              />
+            </div>
+
+            <div class="label-input">
+              <label for="e-mail">Email Address</label>
+              <input
+                type="email"
+                placeholder="your.email@example.com"
+                name="e-mail"
+                id="e-mail"
+                required
+              />
+            </div>
+
+            <div class="label-input">
+              <label for="thoughts">Share your thoughts</label>
+              <textarea
+                placeholder="What did you learn?"
+                name="thoughts"
+                id="thoughts"
+              ></textarea>
+            </div>
+
+            <div class="form-checkbox">
+              <p>What topics interest you?</p>
+              <div class="form-checkboxs">
+                <div class="check-boxs">
+                  <div class="check-box">
+                    <input type="checkbox" name="" id="h-basic" />
+                    <label for="h-basic">HTML Basics</label>
+                  </div>
+                  <div class="check-box">
+                    <input type="checkbox" name="" id="h-forms" />
+                    <label for="h-forms">HTML Forms</label>
+                  </div>
+                  <div class="check-box">
+                    <input type="checkbox" name="" id="h-best" />
+                    <label for="h-best">HTML Best</label>
+                  </div>
+                </div>
+                <div class="check-boxs">
+                  <div class="check-box">
+                    <input type="checkbox" name="" id="h-element" />
+                    <label for="h-element">HTML Elements</label>
+                  </div>
+                  <div class="check-box">
+                    <input type="checkbox" name="" id="h-attr" />
+                    <label for="h-attr">HTML Attributes</label>
+                  </div>
+                  <div class="check-box">
+                    <input type="checkbox" name="" id="h-resource" />
+                    <label for="h-resource">HTML Resources</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input type="submit" value="Submit" />
+          </form>
+          <img src="./119121.jpg" alt="Tiger" />
+        </article>
+      </section>
+    </main>
+
+    <footer class="container">
+      <div class="learn">
+        <h3>HTML Learning</h3>
+        <hr />
+
+        <div class="learn-body">
+          <strong>Your journey starts here</strong>
+          <ul>
+            <li>
+              <a href="#"><strong>Home</strong></a>
+            </li>
+            <li>
+              <a href="#"><strong>Structure</strong></a>
+            </li>
+            <li>
+              <a href="#"><strong>Tips</strong></a>
+            </li>
+            <li>
+              <a href="#"><strong>Contact</strong></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="subscribe">
+        <form action="">
+          <label for="email">
+            <strong>Join our newsletter for updates</strong>
+          </label>
+
+          <div class="join-inputs">
+            <input
+              type="email"
+              id="email"
+              class="email-input"
+              name="email"
+              placeholder="Your email address"
+              required
+            />
+            <input type="submit" class="submit-input" value="Subscribe" />
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
 </html>

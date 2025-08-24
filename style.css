@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    box-shadow: 0px 0px 5px rgb(153, 145, 145);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+}
+
+.header-list li button {
+    font-size: 20px;
+}
+
+.header-list li a,
+.header-list li button {
+    background-color: rgb(93, 119, 145);
+    color: #fff;
+    border-radius: 10px;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.header-list li a {
+    text-decoration: none;
+    padding: 10px 3px;
+}
+
+.header-list li button {
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+
+
+
+#form-section article {
+    padding-block: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+#form-info {
+    background-color: #d3d3d3;
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#form-section img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.form-header {
+    font-size: 55px;
+    padding: 60px 0 30px;
+    width: 30%;
+}
+
+.label-input {
+    margin-bottom: 20px;
+}
+
+#form-info,
+#form-section article img {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.label-input label,
+.form-checkboxs,
+#form-info p {
+    display: block;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.label-input input,
+.label-input textarea,
+#form-info input[type="submit"] {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.label-input input {
+    border: none;
+
+}
+
+.label-input textarea {
+    height: 200px;
+    resize: none;
+}
+
+.label-input input,
+.label-input textarea {
+    border: none;
+    padding: 15px 7px;
+    width: 100%;
+    font-size: 25px;
+}
+
+
+.form-checkbox {
+    margin-block: 50px;
+}
+
+.form-checkboxs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-boxs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-checkboxs input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#form-info input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    padding: 10px 0;
+    font-size: 25px;
+    background-color: #5d7791;
+    color: #fff;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.learn {
+    width: 30%;
+}
+
+.learn h3 {
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.learn-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.learn-body strong {
+    font-size: 23px;
+    width: 200px;
+}
+
+.learn-body a {
+    text-decoration: none;
+    color: #000;
+}
+
+.learn-body ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.subscribe {
+    background-color: #5d7791;
+    padding: 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 50%;
+}
+
+.subscribe label {
+    display: block;
+    font-size: 23px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.email-input {
+    width: 70%;
+    border: none;
+    background-color: #d3dae1;
+    font-size: 23px;
+    padding: 10px 5px;
+}
+
+.submit-input {
+    width: 30%;
+    border: none;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.submit-input,
+.email-input {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.join-inputs {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
